@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#08162e" />
+      <stop offset="50%" stop-color="#0d2344" />
+      <stop offset="100%" stop-color="#1b1b2f" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff9100" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00d1ff" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)" />
+  <g opacity="0.3">
+    <rect x="120" y="420" width="1360" height="360" fill="#0d3b66" />
+    <rect x="260" y="360" width="1080" height="420" fill="#091f43" />
+  </g>
+  <g opacity="0.6">
+    <rect x="180" y="300" width="90" height="280" fill="#ff5722" />
+    <rect x="320" y="260" width="130" height="340" fill="#03dac6" />
+    <rect x="500" y="320" width="110" height="280" fill="#fdd835" />
+    <rect x="660" y="220" width="130" height="380" fill="#2979ff" />
+    <rect x="840" y="280" width="150" height="320" fill="#ff4081" />
+    <rect x="1040" y="240" width="160" height="360" fill="#00bcd4" />
+    <rect x="1240" y="300" width="110" height="300" fill="#ffab40" />
+  </g>
+  <rect x="0" y="700" width="1600" height="200" fill="#050914" />
+  <path d="M0 720 Q320 660 640 720 T1280 720 Q1440 760 1600 720 L1600 900 L0 900 Z" fill="url(#glow)" opacity="0.5" />
+  <g stroke="#fff" stroke-width="4" stroke-linecap="round" opacity="0.6">
+    <line x1="180" y1="780" x2="260" y2="780" />
+    <line x1="380" y1="780" x2="460" y2="780" />
+    <line x1="580" y1="780" x2="660" y2="780" />
+    <line x1="780" y1="780" x2="860" y2="780" />
+    <line x1="980" y1="780" x2="1060" y2="780" />
+    <line x1="1180" y1="780" x2="1260" y2="780" />
+    <line x1="1380" y1="780" x2="1460" y2="780" />
+  </g>
+</svg>
